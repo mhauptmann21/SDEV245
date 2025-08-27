@@ -5,4 +5,6 @@ This demo simulates a simple authentication system to demonstrate confidentialit
 
 The confidentiality is protected by the specified roles, leading to special authorization requirements. These are needed to access data, and utilize tools. 
 
+The app uses functions to gather input from the user and verify if/which panel they qualify to see (users or admin).
+
 ```
