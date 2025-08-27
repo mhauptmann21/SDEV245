@@ -1,0 +1,8 @@
+# Module 1 Assignment
+
+```
+This demo simulates a simple authentication system to demonstrate confidentiality in a software application. It includes user login, role-based access control, and protected actions based on user roles.
+
+The confidentiality is protected by the specified roles, leading to special authorization requirements. These are needed to access data, and utilize tools. 
+
+```
