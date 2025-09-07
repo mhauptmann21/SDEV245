@@ -1,0 +1,24 @@
+# Encryption Demo (AES + RSA)
+
+This project demonstrates **symmetric (AES)** and **asymmetric (RSA)** encryption/decryption using Python’s `cryptography` library.  
+Now the program allows the **user to enter their own message** at runtime.
+
+---
+
+## 🔐 Features
+1. **AES (Symmetric Encryption)**
+   - A random 256-bit AES key and 128-bit IV are generated.
+   - The user-provided plaintext message is encrypted using AES in CFB mode.
+   - The ciphertext is decrypted back to plaintext using the same key/IV.
+
+2. **RSA (Asymmetric Encryption)**
+   - A 2048-bit RSA private/public key pair is generated.
+   - The user-provided plaintext message is encrypted using the public key and OAEP padding.
+   - The ciphertext is decrypted using the private key.
+
+---
+
+## ▶️ Running the Script
+```bash
+pip install cryptography
+python crypto_demo.py
