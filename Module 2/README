@@ -5,7 +5,7 @@ Now the program allows the **user to enter their own message** at runtime.
 
 ---
 
-## 🔐 Features
+## Features
 1. **AES (Symmetric Encryption)**
    - A random 256-bit AES key and 128-bit IV are generated.
    - The user-provided plaintext message is encrypted using AES in CFB mode.
@@ -18,7 +18,7 @@ Now the program allows the **user to enter their own message** at runtime.
 
 ---
 
-## ▶️ Running the Script
+## Running the Script
 ```bash
 pip install cryptography
 python crypto_demo.py
