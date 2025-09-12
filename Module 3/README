@@ -1,0 +1,13 @@
+# Secure Hashing and Encryption
+
+This project demonstrates **Secure Hashing Techniques** and **Encryption Tools**.
+Also, using the program provides a Caesar Cipher tool for encryption and the OpenSSL tool for digital signatures.  
+The program allows the **user to enter specific selections** at runtime.
+
+
+---
+
+## Running the Script
+```bash
+In order to complete digital signatures, install OpenSSL.
+python crypto_demo.py
