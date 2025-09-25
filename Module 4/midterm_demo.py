@@ -44,7 +44,7 @@ def main():
         # Verify integrity
         decrypted_hash = sha256_bytes(decrypted)
         print(f"Decrypted SHA-256: {decrypted_hash}")
-        print("Integrity check:", "PASS ✅" if decrypted_hash == original_hash else "FAIL ❌")
+        print("Integrity check:", "PASS!" if decrypted_hash == original_hash else "FAIL!")
 
     elif choice == "2":
         path = input("Enter file path: ").strip()
@@ -68,7 +68,7 @@ def main():
         # Verify integrity
         decrypted_hash = sha256_bytes(decrypted)
         print(f"Decrypted SHA-256: {decrypted_hash}")
-        print("Integrity check:", "PASS ✅" if decrypted_hash == original_hash else "FAIL ❌")
+        print("Integrity check:", "PASS!" if decrypted_hash == original_hash else "FAIL!")
 
     else:
         print("Invalid choice.")

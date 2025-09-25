@@ -1,0 +1,19 @@
+# Secure Data Transmission App with Hashing and Encryption
+
+This project demonstrates **Secure Hashing Techniques** and **Encryption Tools**.
+The program uses a SHA-256 technique for hasshing the user input, then uses AES encryption to encrypt, and lastly decrypts the message and hash. 
+The program allows the **user to enter specific selections** at runtime.
+
+Confidentiality is protected by the use of security techniques in this program. The AES encryption is used to protect the message/file, making sure that attackers won't be able to recover the content. 
+
+To ensure Integrity, the program uses SHA-256 hashing before and after encryption. This makes sure that the message or file has not been modified during storage or transmission.
+
+The Availability is protected by allowing users to work with different types of data (messages or files). The decryption restores the content reliably, so the users can regain access when needed.
+
+The strength of encryption relies on the randomness (entropy) of cryptographic keys and IVs. For this program, the AES key (32 bytes) and IV (16 bytes) are generates with os.urandom(), which uses the operating system's secure random number generator. The randomness prevents attackers from guessing or reusing keys, and reducing the confidentiality. Every run produces a random key and IV, strengthing the security against pattern analysis.
+---
+
+## Running the Script
+```bash
+pip install cryptography
+python midterm_demo.py
